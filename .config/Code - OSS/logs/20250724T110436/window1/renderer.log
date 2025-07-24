@@ -1,0 +1,59 @@
+2025-07-24 11:04:37.786 [info] Started local extension host with pid 2497799.
+2025-07-24 11:04:40.602 [info] [perf] Render performance baseline is 44ms
+2025-07-24 11:30:07.908 [error] [c1a] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at SLi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11908)
+    at Sut.u [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at c8e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:24193)
+    at new c8e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:23345)
+    at qxt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1589)
+    at qxt.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1086)
+    at a8e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:22116)
+2025-07-24 11:34:32.261 [error] [c1a] potential listener LEAK detected, having 191 listeners already. MOST frequent listener (41):: Error
+    at SLi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11908)
+    at Sut.u [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at c8e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:24193)
+    at new c8e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:23345)
+    at qxt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1589)
+    at qxt.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1086)
+    at a8e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:22116)
+2025-07-24 11:36:50.666 [error] [c1a] potential listener LEAK detected, having 179 listeners already. MOST frequent listener (31):: Error
+    at SLi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11908)
+    at Sut.u [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at c8e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:24193)
+    at new c8e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:23345)
+    at qxt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1589)
+    at qxt.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1086)
+    at a8e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:22116)
+2025-07-24 11:37:18.455 [error] [c1a] potential listener LEAK detected, having 189 listeners already. MOST frequent listener (41):: Error
+    at SLi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11908)
+    at Sut.u [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at c8e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:24193)
+    at new c8e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:23345)
+    at qxt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1589)
+    at qxt.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1086)
+    at a8e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:22116)
+2025-07-24 11:44:44.009 [error] [c1a] potential listener LEAK detected, having 199 listeners already. MOST frequent listener (51):: Error
+    at SLi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11908)
+    at Sut.u [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at u (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at c8e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:24193)
+    at new c8e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:23345)
+    at qxt.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1589)
+    at qxt.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1304:1086)
+    at a8e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:523:22116)
+2025-07-24 11:44:44.944 [error] [Extension Host] (node:2497799) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

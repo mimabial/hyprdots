@@ -1,0 +1,47 @@
+2025-07-14 12:02:43.122 [info] Started local extension host with pid 374530.
+2025-07-14 12:02:43.311 [info] ComputeTargetPlatform: linux-x64
+2025-07-14 12:02:45.918 [info] [perf] Render performance baseline is 40ms
+2025-07-14 12:28:12.095 [error] [b48] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (1):: Error
+    at aSi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11835)
+    at cot.q [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at a_e.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:18282)
+    at new a_e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:17440)
+    at a0t.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1589)
+    at a0t.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1086)
+    at r_e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:16252)
+2025-07-14 12:29:08.910 [error] [b48] potential listener LEAK detected, having 191 listeners already. MOST frequent listener (43):: Error
+    at aSi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11835)
+    at cot.q [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at a_e.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:18282)
+    at new a_e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:17440)
+    at a0t.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1589)
+    at a0t.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1086)
+    at r_e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:16252)
+2025-07-14 12:34:04.832 [error] [b48] potential listener LEAK detected, having 175 listeners already. MOST frequent listener (27):: Error
+    at aSi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11835)
+    at cot.q [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at a_e.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:18282)
+    at new a_e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:17440)
+    at a0t.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1589)
+    at a0t.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1086)
+    at r_e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:16252)
+2025-07-15 07:59:59.202 [error] [b48] potential listener LEAK detected, having 185 listeners already. MOST frequent listener (37):: Error
+    at aSi.create (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:11835)
+    at cot.q [as onDidRemoveRepository] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1377)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6474
+    at Object.onWillAddFirstListener (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:27:6828)
+    at q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:29:1565)
+    at a_e.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:18282)
+    at new a_e (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:17440)
+    at a0t.o (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1589)
+    at a0t.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1905:1086)
+    at r_e.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1276:16252)

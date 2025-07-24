@@ -1,0 +1,476 @@
+: 1751937925:0;cp .config .local .tmux.conf .zsh .zshenv .zshrc ~/
+: 1751937925:0;cp -r .config .local .tmux.conf .zsh .zshenv .zshrc ~/
+: 1751937925:0;v .user.zsh
+: 1751937925:0;sudo pacman -S nerd-fonts
+: 1751937925:0;v .tmux.conf
+: 1751937925:0;z alacrity
+: 1751937925:0;z .config/alacritty
+: 1751937925:0;v alacritty.toml
+: 1751937925:0;v .config/alcritty/alacritty.toml
+: 1751937925:0;v .config/alacritty/alacritty.toml
+: 1751937925:0;z .config
+: 1751937925:0;a
+: 1751937925:0;z DENv
+: 1751937925:0;la .themes
+: 1751937925:0;rmf Catppuccin-Latte Catppuccin-Mocha
+: 1751937925:0;rmf Decay-Green Frosted-Glass Synth-Wave
+: 1751937925:0;la Edge-Runner
+: 1751937925:0;fzf
+: 1751937925:0;rmf Catppuccin\ Latte Catppuccin\ Mocha Decay\ Green Frosted\ Glass Synth\ Wave
+: 1751937925:0;cd ~/DENv/Scripts\
+
+: 1751937925:0;install.sh
+: 1751937925:0;z .config/denv/themes
+: 1751937925:0;rmf Catppuccin\ Latte Catppuccin\ Mocha Frosted\ Glass Synth\ Wave
+: 1751937925:0;la Decay\ Green
+: 1751937925:0;z Decay\ Green/wallpapers
+: 1751937925:0;nemo
+: 1751937925:0;dolphin
+: 1751937925:0;dolphin .
+: 1751937925:0;rmf Material\ Sakura
+: 1751937925:0;rmf Graphite\ Mono Edge\ Runner
+: 1751937925:0;z .themes
+: 1751937925:0;rmf Graphite-Mono Material-Sakura Edge-Runner Synth-Wave 
+: 1751937925:0;la .config
+: 1751937925:0;pss bat
+: 1751937925:0;sc
+: 1751937925:0;z .config/waybar
+: 1751937925:0;z .local
+: 1751937925:0;la bin
+: 1751937925:0;la lib
+: 1751937925:0;la lib/denv
+: 1751937925:0;z lib/denv
+: 1751937925:0;v notifications.py
+: 1751937925:0;la\\
+la
+: 1751937925:0;la\
+
+: 1751937925:0;v updates.jsonc
+: 1751937925:0;z keybindings.conf
+: 1751937925:0;v keybindings.conf
+: 1751937925:0;l;a
+: 1751937925:0;v notifications.jsonc
+: 1751937925:0;rm notifications.jsonc
+: 1751937925:0;v privacy.jsonc
+: 1751937925:0;rm privacy.jsonc
+: 1751937925:0;z waybar
+: 1751937925:0;rm workspaces\#\#kanji.jsonc workspaces\#\#roman.jsonc
+: 1751937925:0;v clock\#\#alt.jsonc
+: 1751937925:0;v config.
+: 1751937925:0;c DENv/Configs/.config/waybar/modules/ 
+: 1751937925:0;cd DENv/Configs/.config/waybar/modules/ 
+: 1751937925:0;cp DENv/Configs/.config/waybar/modules/* .config/waybar/modules
+: 1751937925:0;z modules
+: 1751937925:0;v pulseaudio.jsonc
+: 1751937925:0;code pulseaudio.jsonc
+: 1751937925:0;v config.ctl
+: 1751937925:0;v theme.css
+: 1751937925:0;v style.css
+: 1751937925:0;code style.css
+: 1751937925:0;pacman -S --needed go  # or your system's package manager\
+git clone https://github.com/DENv-Project/denvctl.git\
+cd denvctl\
+make all
+: 1751937925:0;rmf denvctl/
+: 1751937925:0;pacman -S --needed go\
+git clone https://github.com/DENv-Project/denvctl.git\
+cd denvctl\
+make all
+: 1751937925:0;make all
+: 1751937925:0;make install
+: 1751937925:0;sudo pacman -S nemo
+: 1751937925:0;rmf Ever\ Blushing
+: 1751937925:0;rmf Monterey\ Frost
+: 1751937925:0;rmf Rain\ Dark
+: 1751937925:0;rmf Rosé\ Pine
+: 1751937925:0;rmf Monokai
+: 1751937925:0;pss jp2a
+: 1751937925:0;nvim .user.zsh
+: 1751937925:0;loadkeys fr
+: 1751937925:0;localectl set-keymap --no-convert fr
+: 1751937925:0;localectl list-keymaps | grep -i fr
+: 1751937925:0;loadkeys fr-latin1
+: 1751937925:0;loadkeys -C /dev/console fr
+: 1751937925:0;sudo loadkeys -C /dev/console fr
+: 1751937925:0;sudo loadkeys -C /dev/console fr-latin1
+: 1751937925:0;v /etc/vconsole.conf
+: 1751937925:0;localectl status
+: 1751937925:0;nvim /etc/vconsole.conf
+: 1751937925:0;cd .config/waybar
+: 1751937925:0;cd modules
+: 1751937925:0;cd denv-shell
+: 1751937925:0;sudo /etc/locale.gen
+: 1751937925:0;sudo nvim /etc/locale.gen
+: 1751937925:0;sudo nvim /etc/locale.conf
+: 1751937925:0;sudo ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime\
+sudo hwclock --systohc\
+
+: 1751937925:0;reboot
+: 1751937925:0;sudo locale-gen
+: 1751937925:0;sudo nano /etc/vconsole.conf\
+
+: 1751937925:0;nvim hyprland.conf
+: 1751937925:0;cleqr
+: 1751937925:0;sudo pacman -S konsole
+: 1751937925:0;w
+: 1751937925:0;cd .local/bin/
+: 1751937925:0;cd ../lib
+: 1751937925:0;keyboardswitch.sh
+: 1751937925:0;cd ../../waybar/
+: 1751937925:0;../denv/themes/
+: 1751937925:0;xit
+: 1751937925:0;yay -S ohmyposh
+: 1751937925:0;sudo pacman -S oh-my-posh
+: 1751937925:0;yay -S oh-my-posh
+: 1751937925:0;denv-shell pm
+: 1751937925:0;cd .config/denv/themes
+: 1751937925:0;cd .config/hypr/
+: 1751937925:0;reload hyprctl
+: 1751937925:0;cp keybindings.conf /home/slim/key.txt
+: 1751937925:0;../../waybar/
+: 1751937925:0;code .
+: 1751937925:0;denvctl theme
+: 1751937925:0;nvim keybindings.conf
+: 1751937925:0;yay -R oh-my-posh\
+
+: 1751937925:0;rm /usr/lib/debug/usr/bin/oh-my-posh.debug
+: 1751937925:0;sudo rm /usr/lib/debug/usr/bin/oh-my-posh.debug
+: 1751937925:0;yay -S oh-my-posh-bin\
+
+: 1751937925:0;mkdir .poshthemes
+: 1751937925:0;curl -Lo ~/.poshthemes/1_shell.omp.json \\
+     https://https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/1_shell.omp.json
+: 1751937925:0;curl -Lo ~/.poshthemes/1_shell.omp.json \\
+     https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/1_shell.omp.json
+: 1751937925:0;source .zhsrc
+: 1751937925:0;ls ls -a
+: 1751937925:0;cd .poshthemes/
+: 1751937925:0;mkdir -p ~/.poshthemes && \\
+for theme in cloud-context nordtron neko pararussel di4am0nd; do \\
+  curl -sLo ~/.poshthemes/$theme.omp.json \\
+    https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/${theme}.omp.json; \\
+done\
+
+: 1751937925:0;ln -s neko.omp.json theme.omp.json
+: 1751937925:0;rm theme.omp.json neko.omp.json
+: 1751937925:0;ln -s nordtron.omp.json theme.omp.json
+: 1751937925:0;rm theme.omp.json nordtron.omp.json
+: 1751937925:0;ln -s pararussel.omp.json theme.omp.json
+: 1751937925:0;cd ~/.poshthemes/
+: 1751937925:0;rm theme.omp.json pararussel.omp.json
+: 1751937925:0;ln -s di4am0nd.omp.json theme.omp.josn
+: 1751937925:0;rm di4am0nd.omp.json
+: 1751937925:0;ln -s cloud-context.omp.json theme.omp.json
+: 1751937925:0;cd ~/HyE
+: 1751937925:0;cd ~/DENv
+: 1751937925:0;rm cloud-context.omp.json theme.omp.json
+: 1751937925:0;cd 
+: 1751937925:0;rm 1_shell.omp.json
+: 1751937925:0;ln -s 1_shell.omp.json theme.omp.josn
+: 1751937925:0;rm theme.omp.josn
+: 1751937925:0;curl -fsSL \\
+  https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json \\
+  -o ~/.poshthemes/1_shell.omp.json
+: 1751937925:0;nvim ~/.zshenv
+: 1751937925:0;exit'\
+exit\
+exit'
+: 1751937925:0;cd .config/nvim/
+: 1751937925:0;cd .zshenv
+: 1751937925:0;aa
+: 1751937925:0;cd ~/.poshthemes
+: 1751937925:0;nvim 1_shell.omp.json
+: 1751937925:0;nvim .p10k.zsh
+: 1751937925:0;eixt
+: 1751937925:0;signal
+: 1751937925:0;rm .p10k.zsh
+: 1751937925:0;nvi, .zshrc
+: 1751937925:0;cd .zsh/themes
+: 1751937925:0;cp p10k.zsh ~/.p10k.zsh
+: 1751937925:0;git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.zsh/plugins/oh-my-zsh
+: 1751937925:0;# clone the standalone version\
+git clone https://github.com/chrissicool/zsh-256color.git ~/.zsh/plugins/zsh-256color\
+
+: 1751937925:0;rmf .zsh/plugins/zsh-autosuggestions
+: 1751937925:0;git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh/plugins/zsh-autosuggestions\
+
+: 1751937925:0;rmf .zsh/plugins/zsh-syntax-highlighting
+: 1751937925:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/plugins/zsh-syntax-highlighting\
+
+: 1751937925:0;nivm .zshrc
+: 1751937925:0;v .zshrc
+: 1751937925:0;v .zshenv
+: 1751937925:0;md completions
+: 1751937925:0;curl -Lo ~/.zsh/completions/git-completion.zsh \\
+  https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+: 1751937925:0;v .
+: 1751937925:0;sudo pacman -S zoxide
+: 1751937925:0;c
+: 1751937925:0;nvim .zshrc
+: 1751937925:0;z neo
+: 1751937925:0;z nvim
+: 1751937925:0;z .config/nvim
+: 1751937925:0;rm -f nvim
+: 1751937925:0;rm -f nvim/
+: 1751937925:0;rm -r nvim/
+: 1751937925:0;ln -s .config/nvim neocode
+: 1751937925:0;ln -s .config/nvim/ neocode/
+: 1751937925:0;rm -r neocode/
+: 1751937925:0;y
+: 1751937925:0;cd neocode
+: 1751937925:0;ln -s neocode .config/nvim
+: 1751937925:0;nvim nvim
+: 1751937925:0;rm nvim
+: 1751937925:0;rm neocode
+: 1751937925:0;mkdir .config/nvim
+: 1751937925:0;ln -s ~/neocode/ ~/.config/nvim/
+: 1751937925:0;cd .config/nvim
+: 1751937925:0;cd ..
+: 1751937925:0;rm -r nvim
+: 1751937925:0;ln -s ~/neocode ~/.config/nvim
+: 1751937925:0;cd .config
+: 1751937925:0;cd nvim
+: 1751937925:0;git pull
+: 1751937925:0;pacman -S stow
+: 1751937925:0;sudo pacman -S stow
+: 1751937925:0;stow . --adopt
+: 1751937925:0;stow .
+: 1751937925:0;rm -r dotfiles
+: 1751937925:0;cd dot
+: 1751937925:0;clea
+: 1751937925:0;rclear
+: 1751937925:0;rm -r DENv/ denvctl
+: 1751937925:0;cp .tmux.conf ~/.tmux.conf
+: 1751937925:0;cp .config/tmux ~/.config
+: 1751937925:0;cp -r .config/tmux ~/.config
+: 1751937925:0;cd plugins
+: 1751937925:0;git clone https://github.com/MunifTanjim/tmux-mode-indicator.git
+: 1751937925:0;git clone https://github.com/olimorris/tmux-pomodoro-plus.git
+: 1751937925:0;git clone https://github.com/tmux-plugins/tmux-cpu.git
+: 1751937925:0;git clone https://github.com/tmux-plugins/tmux-battery.git
+: 1751937925:0;git clone https://github.com/tmux-plugins/tmux-resurrect.git
+: 1751937925:0;git clone https://github.com/schasse/tmux-jump.git
+: 1751937925:0;git clone https://github.com/tmux-plugins/tmux-continuum.git
+: 1751937925:0;git clone https://github.com/christoomey/vim-tmux-navigator.git
+: 1751937925:0;cd .config/tmux/plugins
+: 1751937925:0;ls -a
+: 1751937925:0;git clone https://github.com/soyuka/tmux-current-pane-hostname.git
+: 1751937925:0;git clone https://github.com/tmux-plugins/tmux-open.git
+: 1751937925:0;git clone https://github.com/NHDaly/tmux-better-mouse-mode.git
+: 1751937925:0;cd .config/tmux
+: 1751937925:0;cd /etc/ly
+: 1751937925:0;nvim config.ini
+: 1751937925:0;sudo nvim config.ini
+: 1751937925:0;vi
+: 1751937925:0;builtin cd -- /home/slim/Desktop
+: 1751937925:0;nvim .zshenv
+: 1751937925:0;git clone https://github.com/alacritty/alacritty-theme.git
+: 1751937925:0;cd alacritty-theme/themes
+: 1751937925:0;cp everforest_dark.toml everforest_light.toml ~/.config/alacritty/themes
+: 1751937925:0;cd -
+: 1751937925:0;cp terafox.toml seashells.toml solarized_dark.toml solarized_light.toml solarized_osaka.toml kanagawa_dragon.toml kanagawa_wave.toml rose_pine_dawn.toml rose_pine_moon.toml rose_pine.toml nordfox.toml nord.toml nord_light.toml duskfox.toml dawnfox.toml carbonfox.toml ~/.config/alacritty/themes
+: 1751937925:0;z ala
+: 1751937925:0;cd dotfiles
+: 1751937925:0;git config --global user.email "mabialamirion@hotmail.fr"
+: 1751937925:0;git config --global user.name "Mabiala Mirion"\
+
+: 1751937925:0;gcom 'added themes'
+: 1751937925:0;git push
+: 1751937925:0;pacman -S thunar thunar-volman
+: 1751937925:0;sudo pacman -S thunar thunar-volman
+: 1751937925:0;sudo pacman -R thunar thunar-volman
+: 1751937925:0;pss librewolf
+: 1751937925:0;pss librewolf-bin
+: 1751937925:0;yay -S librewolf-bin
+: 1751937925:0;psr firefox
+: 1751937925:0;git clone https://github.com/DENv-Project/DENv.git
+: 1751937925:0;cd Scripts
+: 1751937925:0;z
+: 1751937925:0;z .zsh
+: 1751937925:0;pss pcmanfm-qt
+: 1751937925:0;pss thunar
+: 1751937925:0;psr thunar
+: 1751937925:0;psr dolphin
+: 1751937925:0;pss krita
+: 1751937925:0;psr krita igmp
+: 1751937925:0;psr krita gimp
+: 1751937925:0;gst-plugins-bad
+: 1751937925:0;psr gnome-music
+: 1751937925:0;psr totem
+: 1751937925:0;psr grilo-plugins
+: 1751937925:0;psr gst-plugins-bad
+: 1751937925:0;psr zbar
+: 1751937925:0;psr imagemagick
+: 1751937925:0;pss audacious strawberry
+: 1751937925:0;pss audacious
+: 1751937925:0;psr ffmpeg
+: 1751937925:0;pss elisa
+: 1751937925:0;pss rhythmbox
+: 1751937925:0;pss quolibet
+: 1751937925:0;pss quodlibet
+: 1751937925:0;psr rhythmbox quodlibet
+: 1751937925:0;psr strawberry
+: 1751937925:0;yay -A amarok
+: 1751937925:0;pss deadbeef
+: 1751937925:0;r
+: 1751937925:0;yay -S deadbeef
+: 1751937925:0;yay -R amarok
+: 1751937925:0;rm -r yay
+: 1751937925:0;sudo rm -r yay
+: 1751937925:0;sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+: 1751937925:0;yay -S amarok
+: 1751937925:0;pss amberol
+: 1751937925:0;psr amberol
+: 1751937925:0;pss clementine strawberry
+: 1751937925:0;pss strawberry
+: 1751937925:0;pss lollypop
+: 1751937925:0;pss amberol blanket decibel
+: 1751937925:0;pss amberol blanket decibels
+: 1751937925:0;pss pantheon-music pragha quodlibet rhythmbox
+: 1751937925:0;psr amberol blanket decibels
+: 1751937925:0;psr pantheon-music pragha quodlibet rhythmbox
+: 1751937925:0;psr lollypop
+: 1751937925:0;z config
+: 1751937925:0;pss python-pywall
+: 1751937925:0;pss python-pywal
+: 1751937925:0;z lbib
+: 1751937925:0;z .local/lib/denv
+: 1751937925:0;git clone https://github.com/mimabial/dotfiles.git
+: 1751937925:0;chmod +x theme_select.sh
+: 1751937925:0;../denv/themes
+: 1751937925:0;cp themes ../custom-themes
+: 1751937925:0;cp -r themes ../custom-themes
+: 1751937925:0;cd share
+: 1751937925:0;cp -r fonts ~/.config/custom-themes
+: 1751937925:0;cp -r icons ~/.config/custom-themes
+: 1751937925:0;nf
+: 1751937925:0;z custom-themes
+: 1751937925:0;la themes
+: 1751937925:0;z Abyss\ Green
+: 1751937925:0;md Nord
+: 1751937925:0;cd Nord
+: 1751937925:0;..
+: 1751937925:0;md Gruvbox
+: 1751937925:0;cd Gruvbox
+: 1751937925:0;theme_select.sh -m menu
+: 1751937925:0;../..
+: 1751937925:0;mv themes ..
+: 1751937925:0;mv ../themes ./
+: 1751937925:0;theme_select.sh -m dmenu
+: 1751937925:0;theme_select.sh -m menu --debug
+: 1751937925:0;theme_select.sh -m fzf
+: 1751937925:0;theme_select.sh -m rofi
+: 1751937925:0;z bin
+: 1751937925:0;vi denv-shell
+: 1751937925:0;la rofi
+: 1751937925:0;la denv/rofi
+: 1751937925:0;vi assets
+: 1751937925:0;z share
+: 1751937925:0;cd denv
+: 1751937925:0;echo "hyprctl -j getoption decoration:rounding"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding)"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | jq ".int")"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | grep -o '"int":[0-9]*' | cut -d: -f2)"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | grep -o '"int":[0-9]*')"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | grep -o '"int":^[0-9]+$')"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | sed -n 's/.*"int":\([0-9]*\).*/\1/p')"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | grep -o '"int": [0-9]*' | cut -d: -f2)"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | grep -o '"int": [0-9]*' | cut -d' ' -f2)"
+: 1751937925:0;echo "$(hyprctl -j getoption decoration:rounding | sed 's/.*"int": *\([0-9]*\).*/\1/')"
+: 1751937925:0;ffec
+: 1751937925:0;ffe
+: 1751937925:0;sudo pacman -S chromium
+: 1751937925:0;c d
+: 1751937925:0;fastfetch
+: 1751937925:0;z local
+: 1751937925:0;psr kitty
+: 1751937925:0;psr fish
+: 1751937925:0;psr starfish
+: 1751937925:0;hyprctl reload
+: 1751937925:0;echo $(hyprctl -j getoption decoration:rounding | jq '.int')
+: 1751937925:0;yay -S spaceship-prompt
+: 1751937925:0;la .zsh
+: 1751937925:0;cd .zsh
+: 1751937925:0;vi .zshrc
+: 1751937925:0;vi .zshenv
+: 1751937925:0;rm -r neocode
+: 1751937925:0;rm -rf neocode
+: 1751937925:0;git clone https://github.com/mimabial/neocode.git
+: 1751937925:0;vi neocode
+: 1751937925:0;zsh
+: 1751937925:0;git clone --depth=1 https://github.com/spaceship-prompt/spaceship-prompt.git "$HOME/.zsh/spaceship"
+: 1751937925:0;la .zsh/spaceship
+: 1751937925:0;echo "find /usr -name "*spaceship*""
+: 1751937925:0;echo "$(find /usr -name "*spaceship*")"
+: 1751937925:0;la
+: 1751937925:0;vi .zsh
+: 1751937925:0;chmod +x .spaceshiprc.zsh
+: 1751937925:0;sudo pacman -S foot
+: 1751937925:0;cd DENv
+: 1751937925:0;vi .spaceshiprc.zsh
+: 1751937925:0;z zsh
+: 1751937925:0;md spaceship
+: 1751937925:0;cd spaceship
+: 1751937925:0;\
+\
+
+: 1751937925:0;cl
+: 1751937925:0;git clone --depth=1 https://github.com/spaceship-prompt/spaceship-vi-mode.git
+: 1751937925:0;git clone --depth=1 https://github.com/spaceship-prompt/spaceship-prompt.git
+: 1751937925:0;yay -R spaceship
+: 1751938288:0;exirt
+: 1751939188:0;grep -r "KEYMAP\|vicmd\|viins\|vi.mode\|INSERT\|NORMAL" ~/.zsh* ~/.zshrc ~/.zshenv
+: 1751939555:0;cat ~/.zsh/config/keybindings.zsh
+: 1751939829:0;type spaceship_vi_mode\
+type zle-keymap-select
+: 1751939859:0;echo $SPACESHIP_PROMPT_ORDER
+: 1751940072:0;bindkey | grep -E "main|vicmd"
+: 1751940173:0;vi ~/.zsh/config/keybindings.zsh
+: 1751961209:0;source ~/.zshrc\
+
+: 1752048629:0;nvim .spaceshiprc.zsh
+: 1752050097:0;z tmux
+: 1752051149:0;z hypr
+: 1752051199:0;z lib
+: 1752063864:0;sudo pacman -S wezterm
+: 1752064006:0;cd
+: 1752064008:0;z conf
+: 1752064131:0;sudo pacman -R foot wezterm
+: 1752064142:0;yay -S wezterm-git
+: 1752064208:0;z denv
+: 1752064574:0;sudo pacman -S kitty starship fish
+: 1752065750:0;yay -R wezterm-git
+: 1752065814:0;z themes
+: 1752065829:0;clear
+: 1752066202:0;nvim .zsh
+: 1752066202:0;nvim .
+: 1752066431:0;denvctl theme import
+: 1752066623:0;sudo denvctl theme import
+: 1752066875:0;vi .
+: 1752066893:0;exit
+: 1752066897:0;clear
+: 1752066920:0;denvctl theme import
+: 1752066933:0;clear
+: 1752066936:0;sudo denvctl theme import
+: 1752068714:0;cd
+: 1752068721:0;rmd DENv
+: 1752068736:0;git clone https://github.com/DENv-Project/DENv.git
+: 1752068776:0;cd DENv/Scripts
+: 1752068779:0;install.sh
+: 1752068799:0;vi .
+: 1752068991:0;z themes
+: 1752068995:0;vi .
+: 1752073230:0;z conf
+: 1752073233:0;..
+: 1752073234:0;la
+: 1752073262:0;cd DENv/Scripts
+: 1752073265:0;install.sh
+: 1752073368:0;denvctl theme import
+: 1752073892:0;y
+: 1752073948:0;clear
+: 1752074009:0;sudo pacman -R pacmanfm-qt
+: 1752074022:0;sudo pacman -R pcmanfm-qt
+: 1752074039:0;pacman -R firefox
+: 1752074046:0;sudo pacman -R firefox
+: 1752074050:0;clear
+: 1752074056:0;vi .

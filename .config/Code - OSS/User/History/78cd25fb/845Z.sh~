@@ -1,0 +1,140 @@
+#!/usr/bin/env bash
+
+#// ===== SET VARIABLES =====
+
+# Get the directory where this script is located
+# $0 is the script name/path, "$(realpath "$0")" gets the full path
+# "$(dirname ...)" extracts just the directory part
+# The quotes protect against spaces in directory names
+scrDir="$(dirname "$(realpath "$0")")"
+
+# Source (import) another script to get shared variables and functions
+# shellcheck disable=SC1091 tells the shellcheck linter to ignore this line
+# "${scrDir}/globalcontrol.sh" uses the script directory + filename
+source "${scrDir}/globalcontrol.sh"
+
+# Define an array of available wallbash modes
+# Arrays in bash use parentheses with space-separated values
+wallbashModes=("theme" "auto" "dark" "light")
+
+#// ===== ROFI SELECT MODE FUNCTION =====
+
+# Define a function called rofi_wallbash (functions group related code)
+rofi_wallbash() {
+    # Set font scale for rofi menu, with fallback values
+    # $ROFI_WALLBASH_MODE_SCALE is an environment variable
+    font_scale=$ROFI_WALLBASH_MODE_SCALE
+    
+    # Check if font_scale contains only digits using regex matching
+    # [[ ]] is bash's enhanced test command
+    # =~ means "matches regular expression"
+    # ^[0-9]+$ means "start of string, one or more digits, end of string"
+    # || means "OR" - if the test fails, do the right side
+    # ${ROFI_SCALE:-10} means "use ROFI_SCALE, or 10 if it's empty"
+    [[ "${font_scale}" =~ ^[0-9]+$ ]] || font_scale=${ROFI_SCALE:-10}
+    
+    # Build rofi theme string for font configuration
+    # Variables inside strings are expanded when using double quotes
+    r_scale="configuration {font: \"JetBrainsMono Nerd Font ${font_scale}\";}"
+    
+    # Calculate border radius based on hypr_border variable
+    # $(( )) is arithmetic expansion for math operations
+    elem_border=$((hypr_border * 4))
+    
+    # Build rofi theme override string for borders
+    r_override="window{border-radius:${elem_border}px;} element{border-radius:${elem_border}px;}"
+    
+    # Run rofi menu to select wallbash mode
+    # parallel echo {} ::: "${wallbashModes[@]}" - runs echo for each array element
+    # "${wallbashModes[@]}" expands to all array elements
+    # | (pipe) sends output of left command to input of right command
+    # rofi -dmenu creates a selection menu
+    # -theme-str applies custom theme strings
+    # -theme uses a predefined theme
+    # -select pre-selects an option based on current mode
+    # "${wallbashModes[${enableWallDcol}]}" gets array element at index enableWallDcol
+    rofiSel=$(parallel echo {} ::: "${wallbashModes[@]}" | rofi -dmenu \
+        -theme-str "${r_scale}" \
+        -theme-str "${r_override}" \
+        -theme wallbash \
+        -select "${wallbashModes[${enableWallDcol}]}")
+    
+    # Check if user made a selection (not empty)
+    # [ ] is the basic test command
+    # ! negates the test (makes it opposite)
+    # -z tests if string is zero length (empty)
+    if [ ! -z "${rofiSel}" ]; then
+        # Find the index number of the selected mode
+        # "${!wallbashModes[@]}" expands to array indices (0, 1, 2, 3)
+        # parallel --link runs commands with corresponding arguments
+        # This creates lines like "0 theme theme" if theme was selected
+        # awk processes the output: if column 2 equals column 3, print column 1
+        setMode="$(parallel --link echo {} ::: "${!wallbashModes[@]}" ::: "${wallbashModes[@]}" ::: "${rofiSel}" | awk '{if ($2 == $3) print $1}')"
+    else
+        # If no selection made, exit the script with status 0 (success)
+        exit 0
+    fi
+}
+
+#// ===== SWITCH MODE FUNCTION =====
+
+# Function to step through modes sequentially
+step_wallbash() {
+    # Loop through array indices
+    # "${!wallbashModes[@]}" gives indices: 0, 1, 2, 3
+    for i in "${!wallbashModes[@]}"; do
+        # Check if current index matches the enabled mode
+        # == is string comparison
+        if [ "${enableWallDcol}" == "${i}" ]; then
+            # Check the function argument ($1 is first argument)
+            if [ "${1}" == "n" ]; then
+                # Next mode: add 1, use modulo to wrap around to 0 after last element
+                # ${#wallbashModes[@]} gives array length (number of elements)
+                # % is modulo operator (remainder after division)
+                setMode=$(((i + 1) % ${#wallbashModes[@]}))
+            elif [ "${1}" == "p" ]; then
+                # Previous mode: subtract 1 (will handle negative numbers later)
+                setMode=$((i - 1))
+            fi
+            # Exit the loop once we find the current mode
+            break
+        fi
+    done
+}
+
+#// ===== PROCESS COMMAND LINE ARGUMENTS =====
+
+# Case statement checks the first argument ($1) against patterns
+case "${1}" in
+    # Multiple patterns can trigger the same action using |
+    m | -m | --menu) rofi_wallbash ;;  # Show rofi menu
+    n | -n | --next) step_wallbash n ;; # Go to next mode
+    p | -p | --prev) step_wallbash p ;; # Go to previous mode
+    *) step_wallbash n ;;               # Default: go to next mode (* matches anything)
+esac
+
+#// ===== APPLY THE WALLBASH MODE =====
+
+# Export a variable so child processes can see it
+# This tells other scripts that a reload is needed
+export reload_flag=1
+
+# Handle negative setMode (when going to previous from first item)
+# [[ ]] is bash's enhanced test for more complex conditions
+# -lt means "less than"
+# && means "AND" - if left side is true, execute right side
+[[ "${setMode}" -lt 0 ]] && setMode=$((${#wallbashModes[@]} - 1))
+
+# Call a function (probably from globalcontrol.sh) to save the configuration
+# This stores the new mode setting persistently
+set_conf "enableWallDcol" "${setMode}"
+
+# Run another script to apply the theme changes
+# "${scrDir}/themeswitch.sh" uses the same directory as this script
+"${scrDir}/theme.switch.sh"
+
+# Send a desktop notification to inform the user
+# -a sets the application name
+# -i sets the icon path
+# The message includes the mode name using array indexing
+notify-send -a "DENv Alert" -i "${ICONS_DIR}/Wallbash-Icon/denv.png" " ${wallbashModes[setMode]} mode"

@@ -1,0 +1,12 @@
+2025-07-22 15:05:16.203 [info] Extension host with pid 3000465 started
+2025-07-22 15:05:16.203 [info] Skipping acquiring lock for /home/slim/.config/Code - OSS/User/workspaceStorage/1cb98c046192767408147e466459d340.
+2025-07-22 15:05:16.279 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-22 15:05:16.351 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-22 15:05:16.357 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-22 15:05:16.429 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-22 15:05:16.593 [info] Eager extensions activated
+2025-07-22 15:05:16.610 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 15:05:16.613 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-22 15:05:17.695 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-22 16:27:12.655 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-22 16:27:12.758 [info] Extension host with pid 3000465 exiting with code 0

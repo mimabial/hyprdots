@@ -1,0 +1,11 @@
+    /* Modify/add style in ~/.config/waybar/styles/ */
+    @import "/home/slim/.local/share/waybar/styles/defaults.css";
+
+    /* Imports wallbash colors */
+    @import "/home/slim/.cache/denv/wallbash/gtk.css";
+
+    /* Colors and theme configuration is generated through the `theme.css` file */
+    @import "theme.css";
+
+    /* Users who want to override the current style add/edit 'user-style.css' */
+    @import "user-style.css";

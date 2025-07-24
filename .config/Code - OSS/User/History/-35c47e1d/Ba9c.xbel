@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers" added="2024-09-04T14:52:20.428000Z" modified="2024-12-16T19:40:43.530000Z" visited="2024-12-16T19:40:43.530000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u" modified="2024-12-16T19:40:43.530000Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/astralgrave_windowsdefender.png" added="2024-09-04T14:53:34.641000Z" modified="2024-12-03T12:10:15.853000Z" visited="2024-12-03T12:10:15.853000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:10:15.853000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="https://addons.mozilla.org/en-US/firefox/addon/plasma-integration/" added="2024-09-04T20:36:14.999000Z" modified="2024-12-03T10:53:36.812000Z" visited="2024-12-03T10:53:36.812000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="librewolf" exec="/usr/lib/librewolf/librewolf %u" modified="2024-12-03T10:53:36.812000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/applications/" added="2024-12-03T12:07:04.960000Z" modified="2024-12-16T19:36:55.082000Z" visited="2024-12-16T19:36:55.082000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u" modified="2024-12-16T19:36:55.082000Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/astralgrave_hiddeninyourword.png" added="2024-12-03T12:09:03.626000Z" modified="2024-12-03T12:09:03.626000Z" visited="2024-12-03T12:09:03.626000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:09:03.626000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/6gaubmc5c7ea1.jpg" added="2024-12-03T12:09:06.554000Z" modified="2024-12-03T12:09:06.554000Z" visited="2024-12-03T12:09:06.554000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:09:06.554000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/64489c5ffca86b01cf259bfa_hiddeninyourwordsmall.jpg" added="2024-12-03T12:09:08.266000Z" modified="2024-12-03T12:09:08.266000Z" visited="2024-12-03T12:09:08.266000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:09:08.266000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/astralgrave_windowsdefender2.png" added="2024-12-03T12:09:11.054000Z" modified="2024-12-03T12:09:11.054000Z" visited="2024-12-03T12:09:11.054000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:09:11.054000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Desktop/Wallpapers/three-illustrations-by-astral-grave-3440x1440-v0-23t67uhd46fd1.png" added="2024-12-03T12:10:07.715000Z" modified="2024-12-03T12:10:07.715000Z" visited="2024-12-03T12:10:07.715000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-03T12:10:07.715000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/yay/src/yay-12.3.5/pkg/settings" added="2024-12-04T19:34:59.930000Z" modified="2024-12-17T12:09:19.076000Z" visited="2024-12-17T12:09:19.076000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u" modified="2024-12-17T12:09:19.076000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20Orange%20Anglais%20France.pdf" added="2024-12-04T19:54:35.676000Z" modified="2024-12-04T19:54:35.676000Z" visited="2024-12-04T19:54:35.676000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2024-12-04T19:54:35.676000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20Orange%20Anglais.pdf" added="2024-12-04T19:55:33.817000Z" modified="2024-12-04T19:55:33.817000Z" visited="2024-12-04T19:55:33.817000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2024-12-04T19:55:33.817000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20Orange%20Anglais.psd" added="2024-12-04T19:55:44.113000Z" modified="2024-12-04T19:56:12.782000Z" visited="2024-12-04T19:56:12.782000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/vnd.adobe.photoshop"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2024-12-04T19:56:12.782000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Assimil%20-%20La%20pratique%20de%20l&apos;allemand/Assimil%20-%20La%20pratique%20de%20l&apos;allemand.pdf" added="2024-12-16T19:37:24.795000Z" modified="2024-12-16T19:37:24.795000Z" visited="2024-12-16T19:37:24.795000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2024-12-16T19:37:24.795000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.videolan.vlc" added="2024-12-17T12:26:22.738000Z" modified="2024-12-17T12:26:22.738000Z" visited="2024-12-17T12:26:22.738000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2024-12-17T12:26:22.738000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/Wallpapers/three-illustrations-by-astral-grave-3440x1440-v0-kp4thopw1bfd1.png" added="2025-03-10T20:01:05.238000Z" modified="2025-03-10T20:01:05.238000Z" visited="2025-03-10T20:01:05.238000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.gwenview" exec="gwenview %u" modified="2025-03-10T20:01:05.238000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/Assimil-Allemand.torrent" added="2025-03-10T20:13:21.179085Z" modified="2025-03-10T20:13:21.179091Z" visited="2025-03-10T20:13:21.179086Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bittorrent"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;LibreWolf %u&apos;" modified="2025-03-10T20:13:21.179089Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Assimil%20-%20La%20pratique%20de%20l&apos;allemand/" added="2025-03-10T20:16:28.621000Z" modified="2025-03-10T20:16:28.621000Z" visited="2025-03-10T20:16:28.621000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u" modified="2025-03-10T20:16:28.621000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.kde.telly-skout" added="2025-03-13T00:52:23.808000Z" modified="2025-03-13T00:52:23.808000Z" visited="2025-03-13T00:52:23.808000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2025-03-13T00:52:23.808000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.kde.audex.desktop" added="2025-03-13T00:57:26.527000Z" modified="2025-03-13T00:57:26.527000Z" visited="2025-03-13T00:57:26.527000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2025-03-13T00:57:26.527000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.kde.umbrello.desktop" added="2025-03-13T00:57:48.697000Z" modified="2025-03-13T00:57:48.697000Z" visited="2025-03-13T00:57:48.697000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2025-03-13T00:57:48.697000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://org.kde.blinken.desktop" added="2025-03-13T01:59:31.064000Z" modified="2025-03-13T01:59:31.064000Z" visited="2025-03-13T01:59:31.064000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2025-03-13T01:59:31.064000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/key.txt" added="2025-05-15T06:58:55.483861Z" modified="2025-05-15T06:58:55.507599Z" visited="2025-05-15T06:58:55.483863Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-15T06:58:55.507596Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/0c1f912ae41097d9bef5510d49363808.jpg" added="2025-05-15T15:16:21.028579Z" modified="2025-05-15T15:27:24.816079Z" visited="2025-05-15T15:16:21.028580Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T15:16:21.278822Z" count="2"/>
+          <bookmark:application name="nemo" exec="&apos;loupe %U&apos;" modified="2025-05-15T15:27:17.746149Z" count="3"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-05-15T15:27:24.816078Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/7daafc17438ab343f4d0e119410db131.jpg" added="2025-05-15T15:17:37.942187Z" modified="2025-05-15T15:26:33.784795Z" visited="2025-05-15T15:17:37.942188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T15:17:38.192322Z" count="2"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-05-15T15:26:33.784793Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/765bef891e785afe909318f95c0384b0.jpg" added="2025-05-15T15:18:28.223530Z" modified="2025-05-15T15:26:14.041903Z" visited="2025-05-15T15:18:28.223531Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T15:18:28.474034Z" count="2"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-05-15T15:26:14.041902Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/b05d03f3eb71ad04e19899711dee30fd.jpg" added="2025-05-15T15:19:27.412177Z" modified="2025-05-15T15:26:21.675923Z" visited="2025-05-15T15:19:27.412178Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T15:19:27.662264Z" count="2"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-05-15T15:26:21.675921Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Downloads/8bfc0ecd844fff8464a4d6f8f0cbb99b.jpg" added="2025-05-15T15:21:31.372714Z" modified="2025-05-15T15:26:06.792868Z" visited="2025-05-15T15:21:31.372715Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;gio open %u&apos;" modified="2025-05-15T15:21:31.628872Z" count="2"/>
+          <bookmark:application name="nemo" exec="&apos;loupe %U&apos;" modified="2025-05-15T15:25:49.207877Z" count="3"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-05-15T15:26:06.792866Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/chaotic_aur.sh" added="2025-06-27T15:55:04.146543Z" modified="2025-06-27T15:55:04.160397Z" visited="2025-06-27T15:55:04.146544Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146546Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/global_fn.sh" added="2025-06-27T15:55:04.146561Z" modified="2025-06-27T15:55:04.160406Z" visited="2025-06-27T15:55:04.146561Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146563Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160405Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/install.sh" added="2025-06-27T15:55:04.146567Z" modified="2025-06-27T15:55:04.160418Z" visited="2025-06-27T15:55:04.146567Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146568Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160417Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/install_aur.sh" added="2025-06-27T15:55:04.146571Z" modified="2025-06-27T15:55:04.160412Z" visited="2025-06-27T15:55:04.146571Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146572Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160411Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/install_pkg.sh" added="2025-06-27T15:55:04.146575Z" modified="2025-06-27T15:55:04.160430Z" visited="2025-06-27T15:55:04.146575Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146576Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160429Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/install_pre.sh" added="2025-06-27T15:55:04.146579Z" modified="2025-06-27T15:55:04.160436Z" visited="2025-06-27T15:55:04.146579Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146579Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160435Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/install_pst.sh" added="2025-06-27T15:55:04.146582Z" modified="2025-06-27T15:55:04.160442Z" visited="2025-06-27T15:55:04.146582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146583Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160440Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/restore_cfg.sh" added="2025-06-27T15:55:04.146585Z" modified="2025-06-27T15:55:04.160447Z" visited="2025-06-27T15:55:04.146585Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146587Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160446Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/restore_fnt.sh" added="2025-06-27T15:55:04.146588Z" modified="2025-06-27T15:55:04.160452Z" visited="2025-06-27T15:55:04.146589Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146590Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160451Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/restore_shl.sh" added="2025-06-27T15:55:04.146592Z" modified="2025-06-27T15:55:04.160469Z" visited="2025-06-27T15:55:04.146592Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146593Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160468Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/restore_svc.sh" added="2025-06-27T15:55:04.146595Z" modified="2025-06-27T15:55:04.160424Z" visited="2025-06-27T15:55:04.146595Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146596Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160423Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/restore_thm.sh" added="2025-06-27T15:55:04.146598Z" modified="2025-06-27T15:55:04.160458Z" visited="2025-06-27T15:55:04.146599Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146599Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160457Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/DENv/Scripts/themepatcher.sh" added="2025-06-27T15:55:04.146602Z" modified="2025-06-27T15:55:04.160463Z" visited="2025-06-27T15:55:04.146602Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146603Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160463Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/denv/Scripts/uninstall.sh" added="2025-06-27T15:55:04.146605Z" modified="2025-06-27T15:55:04.160474Z" visited="2025-06-27T15:55:04.146605Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="io.gitlab.librewolf-community" exec="&apos;gio open %u&apos;" modified="2025-06-27T15:55:04.146606Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-06-27T15:55:04.160473Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/Music" added="2025-07-01T09:29:26.587289Z" modified="2025-07-01T09:29:26.587296Z" visited="2025-07-01T09:29:26.587290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Quod Libet" exec="&apos;io.github.quodlibet.QuodLibet %u&apos;" modified="2025-07-01T09:29:26.587292Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/Camera/20190527_083401.jpg" added="2025-07-03T10:55:43.873494Z" modified="2025-07-03T10:55:43.873498Z" visited="2025-07-03T10:55:43.873495Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T10:55:43.873496Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/Snapchat/20190624_121212.jpg" added="2025-07-03T10:58:47.084783Z" modified="2025-07-03T10:58:47.084787Z" visited="2025-07-03T10:58:47.084784Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T10:58:47.084785Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/WhatsApp%20Images/Sent/IMG-20160521-WA0003.jpg" added="2025-07-03T11:00:45.250311Z" modified="2025-07-03T11:00:45.250316Z" visited="2025-07-03T11:00:45.250312Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T11:00:45.250314Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/WhatsApp%20Images/Sent/IMG-20180624-WA0001.jpg" added="2025-07-03T11:06:30.674743Z" modified="2025-07-03T11:06:30.674748Z" visited="2025-07-03T11:06:30.674744Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T11:06:30.674745Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/WhatsApp%20Images/20180613_110733.jpg" added="2025-07-03T11:14:36.262913Z" modified="2025-07-03T11:14:36.262918Z" visited="2025-07-03T11:14:36.262914Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T11:14:36.262916Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/10%20souvenir/20131128_130524.jpg" added="2025-07-03T11:37:51.056638Z" modified="2025-07-03T11:37:51.056644Z" visited="2025-07-03T11:37:51.056639Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2025-07-03T11:37:51.056640Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/9%20videos%20vivi" added="2025-07-03T11:48:03.746363Z" modified="2025-07-03T11:48:03.762004Z" visited="2025-07-03T11:48:03.746364Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.videolan.VLC" exec="&apos;gio open %u&apos;" modified="2025-07-03T11:48:03.746367Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-03T11:48:03.762001Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/A60A-8399/WhatsApp%20Video" added="2025-07-03T11:57:20.986843Z" modified="2025-07-03T11:57:21.000943Z" visited="2025-07-03T11:57:20.986844Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.videolan.VLC" exec="&apos;gio open %u&apos;" modified="2025-07-03T11:57:20.986847Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-03T11:57:21.000941Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/zshenv.txt" added="2025-07-08T01:40:05.194745Z" modified="2025-07-08T01:40:05.202040Z" visited="2025-07-08T01:40:05.194746Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-08T01:40:05.202038Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/zshrc.txt" added="2025-07-08T01:40:10.686282Z" modified="2025-07-08T01:40:10.717688Z" visited="2025-07-08T01:40:10.686284Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-08T01:40:10.717684Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/spaceshiprc.zsh.txt" added="2025-07-08T01:40:43.693192Z" modified="2025-07-08T01:40:43.721906Z" visited="2025-07-08T01:40:43.693196Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-08T01:40:43.721902Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim" added="2025-07-14T07:33:35.796332Z" modified="2025-07-20T13:25:57.873097Z" visited="2025-07-14T07:33:35.796333Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-20T13:25:57.873095Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV_Design_vol3.pdf" added="2025-07-18T10:19:18.422000Z" modified="2025-07-18T10:19:18.422000Z" visited="2025-07-18T10:19:18.422000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="com.calibre_ebook.calibre.ebook-viewer" exec="/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=ebook-viewer --file-forwarding com.calibre_ebook.calibre --detach @@ %f @@" modified="2025-07-18T10:19:18.422000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20OFRCP.pdf" added="2025-07-18T10:38:33.885000Z" modified="2025-07-18T10:59:23.264000Z" visited="2025-07-18T10:59:23.264000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="librewolf" exec="/usr/lib/librewolf/librewolf %u" modified="2025-07-18T10:38:33.885000Z" count="1"/>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2025-07-18T10:59:23.264000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs" added="2025-07-18T10:58:43.235000Z" modified="2025-07-18T10:58:43.235000Z" visited="2025-07-18T10:58:43.235000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.okular" exec="okular %u" modified="2025-07-18T10:58:43.235000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20OFR.pdf" added="2025-07-18T10:59:32.072000Z" modified="2025-07-18T10:59:32.072000Z" visited="2025-07-18T10:59:32.072000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2025-07-18T10:59:32.072000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20Orange%20FR2.pdf" added="2025-07-18T11:00:09.821000Z" modified="2025-07-18T11:00:39.603000Z" visited="2025-07-18T11:00:39.603000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_pdf" exec="okular %u" modified="2025-07-18T11:00:39.603000Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/slim/VIRAL_OS/CVs/CV%20Orange%20FR2.psd" added="2025-07-18T11:00:27.458000Z" modified="2025-07-19T06:33:28.420440Z" visited="2025-07-19T06:32:57.748000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/x-psd"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="okularApplication_kimgio" exec="okular %u" modified="2025-07-18T11:00:27.458000Z" count="1"/>
+          <bookmark:application name="scribus" exec="scribus %f" modified="2025-07-19T06:31:05.782000Z" count="1"/>
+          <bookmark:application name="gimp" exec="gimp-3.0 %u" modified="2025-07-19T06:32:57.748000Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-3.0 %u&apos;" modified="2025-07-19T06:33:28.420438Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/.local/lib/denv/waybar.py" added="2025-07-19T18:26:51.398791Z" modified="2025-07-19T18:26:51.427150Z" visited="2025-07-19T18:26:51.398792Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-19T18:26:51.427147Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/.config/zsh/functions/bat.zsh" added="2025-07-20T10:29:55.441287Z" modified="2025-07-20T10:29:55.449263Z" visited="2025-07-20T10:29:55.441288Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-20T10:29:55.449262Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/slim/.config/zsh/functions/bind_n_history.zsh" added="2025-07-20T10:31:40.554111Z" modified="2025-07-20T10:31:40.566654Z" visited="2025-07-20T10:31:40.554112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-07-20T10:31:40.566651Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

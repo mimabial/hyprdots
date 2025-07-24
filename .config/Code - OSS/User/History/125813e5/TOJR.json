@@ -1,0 +1,108 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "5a068aadacfe89c97ca6851a30ea6efc62ed9a65e336164dba2e1c389cdda972",
+    "telemetry.devDeviceId": "7b6237f0-427e-4f9a-9ec8-1939bae8acf9",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/slim"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/slim/.config/waybar/modules": "__default__profile__",
+            "file:///home/slim/.local/lib": "__default__profile__",
+            "file:///home/slim/.config/waybar": "__default__profile__",
+            "file:///home/slim/.config/hypr": "__default__profile__",
+            "file:///home/slim/.config/denv/themes": "__default__profile__",
+            "file:///home/slim/.config": "__default__profile__",
+            "file:///home/slim": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 42,
+            "activityBarWidth": 0,
+            "sideBarWidth": 381,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 381,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "c747e2cdac5b2df3d10f7e5c386797ba": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ee022a715c8d581b72eaa1205d6931ae": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1756af8a7daba492310204e25bbb0672": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "adafb9b8efb7011265f1f1f61937c094": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8f77a0191fa9288d42b224436fce6410": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3d294810baf0b634ecd17c9943c2ea23": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1cb98c046192767408147e466459d340": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/slim",
+            "backupPath": "/home/slim/.config/Code - OSS/Backups/feee256f0302a92dabc8712e291b9171",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1280,
+                "height": 720,
+                "zoomLevel": -1
+            }
+        },
+        "openedWindows": []
+    }
+}

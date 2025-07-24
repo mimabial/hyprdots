@@ -1,0 +1,5 @@
+2025-07-21 11:47:58.048 [info] Started local extension host with pid 1530982.
+2025-07-21 11:48:00.785 [info] [perf] Render performance baseline is 32ms
+2025-07-21 11:48:14.592 [info] Started local extension host with pid 1532287.
+2025-07-21 11:48:17.384 [info] [perf] Render performance baseline is 47ms
+2025-07-21 14:20:49.747 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

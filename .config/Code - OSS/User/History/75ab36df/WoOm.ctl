@@ -1,0 +1,3 @@
+1|32|bottom|( hyprland/workspaces )( wlr/taskbar##custom )|( custom/cava idle_inhibitor clock##alt custom/weather )|( pulseaudio pulseaudio#microphone )( custom/notifications backlight battery custom/updates custom/keybindhint custom/power )( tray )
+0|42|top|( hyprland/workspaces )( wlr/taskbar##custom )|( custom/cava idle_inhibitor clock custom/weather )|( backlight pulseaudio pulseaudio#microphone tray ) ( battery custom/keybindhint custom/power )
+0|28|bottom|( hyprland/workspaces )( wlr/taskbar##custom )|( custom/cava idle_inhibitor clock##alt custom/weather )|( cpu memory custom/cpuinfo ) ( pulseaudio pulseaudio#microphone tray ) ( backlight battery custom/updates custom/keybindhint custom/power )

@@ -1,0 +1,8 @@
+2025-07-20 17:35:10.235 [info] Log level: Info
+2025-07-20 17:35:11.392 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-07-20 17:35:11.399 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-07-20 17:35:11.442 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for HyDE-Project/HyDE: Error: No GitHub authentication session available.
+2025-07-20 17:35:11.999 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-07-20 17:35:14.228 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-07-20 18:24:11.927 [info] Log level: Info
+2025-07-20 18:24:12.922 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

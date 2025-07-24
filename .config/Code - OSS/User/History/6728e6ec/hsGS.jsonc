@@ -1,0 +1,8 @@
+{
+    "custom/github_denv": {
+        "format": "\ue709 ",
+        "rotate": 0,
+        "tooltip-format": " \ue709 denv repository",
+        "on-click": "xdg-open https://github.com/denv-Project/denv"
+    }
+}

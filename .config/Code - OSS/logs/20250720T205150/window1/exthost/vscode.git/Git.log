@@ -1,0 +1,36 @@
+2025-07-20 20:51:52.565 [info] [main] Log level: Info
+2025-07-20 20:51:52.565 [info] [main] Validating found git in: "git"
+2025-07-20 20:51:52.565 [info] [main] Using git "2.50.1" from "git"
+2025-07-20 20:51:52.565 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-20 20:51:52.565 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-20 20:51:52.565 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-07-20 20:51:52.565 [info] [Model][openRepository] Opened repository (path): /home/slim/HyDE
+2025-07-20 20:51:52.565 [info] [Model][openRepository] Opened repository (real path): /home/slim/HyDE
+2025-07-20 20:51:52.565 [info] > git rev-parse --show-toplevel [4ms]
+2025-07-20 20:51:52.565 [info] > git config --get commit.template [11ms]
+2025-07-20 20:51:52.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-07-20 20:51:52.565 [info] > git rev-parse --show-toplevel [13ms]
+2025-07-20 20:51:52.565 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/slim/HyDE/.git/refs/remotes/origin/master'
+2025-07-20 20:51:52.565 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-20 20:51:52.565 [info] > git rev-parse refs/remotes/origin/master [9ms]
+2025-07-20 20:51:52.575 [info] > git rev-parse --show-toplevel [23ms]
+2025-07-20 20:51:52.575 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2025-07-20 20:51:52.585 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-20 20:51:52.585 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-20 20:51:52.823 [info] > git show --textconv :Scripts/restore_cfg.psv [7ms]
+2025-07-20 20:51:52.824 [info] > git ls-files --stage -- Scripts/restore_cfg.psv [2ms]
+2025-07-20 20:51:52.831 [info] > git cat-file -s 75586032b7c69835c8908f7653cfdea18e8432c6 [1ms]
+2025-07-20 20:51:52.916 [info] > git blame --root --incremental fa25964d30c21d9a42694b734e96f1b173c4b555 -- Scripts/restore_cfg.psv [27ms]
+2025-07-20 20:51:53.023 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-20 20:51:53.311 [info] > git status -z -uall [771ms]
+2025-07-20 20:51:53.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-07-20 20:51:53.342 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-07-20 20:51:53.348 [info] > git config --get commit.template [14ms]
+2025-07-20 20:51:53.352 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2025-07-20 20:51:53.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-07-20 20:51:53.364 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/slim/HyDE/.git/refs/remotes/origin/master'
+2025-07-20 20:51:53.364 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-07-20 20:51:53.369 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2025-07-20 20:51:53.378 [info] > git diff --name-status -z --diff-filter=ADMR fa25964d30c21d9a42694b734e96f1b173c4b555...refs/remotes/origin/master [9ms]
+2025-07-20 20:51:53.379 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-20 20:51:53.891 [info] > git status -z -uall [518ms]

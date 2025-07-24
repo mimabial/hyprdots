@@ -1,0 +1,14 @@
+2025-07-20 17:35:08.742 [info] Started local extension host with pid 716605.
+2025-07-20 17:35:11.293 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/slim/.config/Code - OSS/logs/20250720T084728/window1/exthost/vscode.git/Git.log' (Error: File Modified Since) file:///home/slim/.config/Code%20-%20OSS/logs/20250720T084728/window1/exthost/vscode.git/Git.log
+2025-07-20 17:35:11.314 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/slim/go/pkg/mod/golang.org/x/text@v0.22.0/language/display/tables.go' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/home/slim/go/pkg/mod/golang.org/x/text@v0.22.0/language/display/tables.go') file:///home/slim/go/pkg/mod/golang.org/x/text%40v0.22.0/language/display/tables.go
+2025-07-20 17:35:11.348 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/slim/go/pkg/mod/golang.org/x/text@v0.25.0/language/display/tables.go' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/home/slim/go/pkg/mod/golang.org/x/text@v0.25.0/language/display/tables.go') file:///home/slim/go/pkg/mod/golang.org/x/text%40v0.25.0/language/display/tables.go
+2025-07-20 17:35:11.349 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/slim/go/pkg/mod/github.com/sahilm/fuzzy@v0.1.1/testdata/linux_filenames.txt' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/home/slim/go/pkg/mod/github.com/sahilm/fuzzy@v0.1.1/testdata/linux_filenames.txt') file:///home/slim/go/pkg/mod/github.com/sahilm/fuzzy%40v0.1.1/testdata/linux_filenames.txt
+2025-07-20 17:35:11.832 [info] [perf] Render performance baseline is 40ms
+2025-07-20 18:24:07.223 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-07-20 18:24:09.753 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/slim/.config/Code%20-%20OSS/logs/20250720T084728/window1/exthost/vscode.git/Git.log 
+2025-07-20 18:24:09.756 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/slim/go/pkg/mod/github.com/sahilm/fuzzy%40v0.1.1/testdata/linux_filenames.txt 
+2025-07-20 18:24:09.756 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/slim/go/pkg/mod/golang.org/x/text%40v0.22.0/language/display/tables.go 
+2025-07-20 18:24:09.757 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/slim/go/pkg/mod/golang.org/x/text%40v0.25.0/language/display/tables.go 
+2025-07-20 18:24:10.800 [info] Started local extension host with pid 1020095.
+2025-07-20 18:24:11.271 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-20 18:24:13.596 [info] [perf] Render performance baseline is 38ms

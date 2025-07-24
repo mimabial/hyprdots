@@ -1,0 +1,325 @@
+ls
+cd yay
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay --version
+su -root
+su - root
+exit
+yay -S plasma-mobile
+pacman-S qt5-wayland
+pacman -S qt5-wayland
+exit
+yay -R plasma-mobile
+pacman -R qt5-wayland
+exit
+cleqr
+clear
+systemctl enable sddm.service
+systemctl enable NetworkManager.service
+EDITOR=nano visudo
+sudo EDITOR=nano visudo
+rebootnow
+reboot now
+reboot
+cd
+npm -v
+sudo pacman -S npm
+npm -v
+node -v
+cleqr
+clear
+sudo pacman -S pnpm
+pacman -S vscodium-bin
+yay -S vscodium-bin
+clear
+sudo pacman -S librewolf
+yay -S librewolf
+sudo pacman -S postgresql
+initdb -D /var/lib/postgres/data
+sudo initdb -D /var/lib/postgres/data
+su - slim
+initdb -D /var/lib/postgres/data
+su - root
+initdb -D /var/lib/postgres/data
+sudo initdb -D /var/lib/postgres/data
+su - postgres
+sudo su - postgres
+pnpm creat t3-app@latest
+pnpm create t3-app@latest
+yay -R librewolf
+clear
+yay -S librewolf-bin
+sudo pacman -R falkon
+sudo pacman -R konqueror
+sudo pacman -R anguelfish
+sudo pacman -R angelfish
+sudo pacman -R kapman
+sudo setxkbmap -layout us
+setxkbmap en_US
+loadkeys en-US
+localectl list-keymap
+loadkeys en
+pacman -S console-data
+sudo pacman -S console-data
+setxkbmap us
+XKB_DEFAULT_LAYOUT=us
+xkb_layout = us
+setxkbmap
+xwayland
+cd etc
+cd ::
+ls
+cd ..
+cd etc
+cd ..
+cd etc
+sudo loadkeys en
+setxkbmap us
+clear
+sudo pacman -S bluez bluez-utils
+sudo pacman -S bluez
+sudo pacman -S bluez-utils
+systemctl bluetooth status
+systemctl status bluetooth
+systemctl enable bluetooth
+systemctl start bluetooth.service
+sudo setxkbmap -layout us
+sudo setxkbmap -layout us
+clear
+cd ../..
+cd etc/
+cd X11/
+ls]
+ls
+cd xinit/
+ls
+sudo setxkbmap -layout us
+sudo setxkbmap -layout us
+sudo pacman -S gimp
+sudo pacman -Syu
+pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -S xfce4 xfce4-goodies
+sudo pacman -S lightdm lightdm-gtk-greeter
+sudo systemctl enable lightdm
+sudo reboot
+sudo pacman -Rns xfce4 xfce4-goodies
+sudo pacman -Sc
+sudo pacman -Rns
+sudo pacman -Rns $(pacman -Qtdq)
+ls -l /usr/share/sddm/themes
+yay -S mullvad-vpn-bin
+yay --version
+yay
+git clone https://aur.archlinux.org/yay-b
+cd yay
+makepkg -si
+cleqr
+clear
+yay -Syu
+pacman -S yay
+sudo pacman -S yay
+sudo pacman -Syuu
+clear
+sudo pacman -Syuu
+pacman -R plasma
+sudo pacman -R plasma
+sudo pacman -R plasma kde-applications
+sudo pacman -Rns plasma kde-applications
+sudo pacman -S gnome
+sudo systemctl start gdm.service
+exit
+sudo pacman -S gnome gdm && sudo systemctl enable gdm.service && sudo systemctl start gdm.service
+pacman -R firefox
+sudo pacman -R firefox
+neofetch
+pacman -S neofetch
+sudo pacman -S neofetch
+neofetch
+sudo pacman -S hyprland
+sudo pacman -Syu hyprland xdg-desktop-portal-hyprland xdg-desktop-portal-wlr wl-clipboard qt5-wayland qt6-wayland gtk3
+yay -S hyprpaper hyprlock hypridle waybar rofi-lbonn-wayland
+nvim
+sudo pacman -S neovim
+sudo pacman -S alacritty tmux
+nvim .zshenv
+ls -a
+sudo pacman -S zsh
+zsh
+exec Hyprland
+sudo pacman -S kitty
+sudo pacman -S sddm
+reboot
+sudo systemctl enable ly.service
+sudo pacman -R sddm gdm
+sudo systemctl enable ly.service
+reboot
+git
+git clone https://github.com/mimabial/dotfiles.git
+cd dotfiles
+ls -a
+cp .config ~/
+cp -r .config ~/
+cp .local ~/
+cp -r .local ~/
+ cp -r .tmux.conf .zsh .zshenv .zshrc ~/
+logout
+exit
+pacman -S --needed git base-devel
+git clone --depth 1 https://github.com/DENv-Project/DENv ~/DENv
+cd ~/DENv/Scripts
+./install.sh
+sudo pacman -S zsh
+zsh
+exit
+sudo pacman -S ungoogled-chromium
+librezolf
+librewolf
+sudo pacman -S ungoogled-chrome
+sudo pacman -S firefox
+firefox
+exit
+sudo pacman -S cromium
+sudo pacman -S crome
+sudo pacman -S chromium
+cd .config/hypr/
+nvim monitors.conf 
+z .config
+cd alacritty
+sudo pacman -Qq | grep zoxide
+z .config
+cd .config
+z
+cd
+cd .config/alacritty/
+la
+ls -a
+nvim alacritty.toml
+cd
+ls -a
+ nvim .zshrc 
+zsh
+exit
+exit
+cd .config/alacritty/
+ls -a
+nvim alacritty.toml 
+exit
+exit
+ls -a
+exit
+ls a
+ls -a
+cd
+cd .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+exit
+exit
+ls -a
+nvim .config/alacritty/alacritty.toml 
+cd
+nvim .config/alacritty/alacritty.toml 
+sudo pacman -Qq | grep font
+fc-query
+fc-query mononoki
+fc-query "mononok"
+fc-list | grep -i "nerd"
+fc-list | grep -i "terminal"
+fc-list | grep -i "termina"
+fc-list | grep -i "term"
+fc-list | grep -i "big"
+fc-list | grep -i "bigbluetermplus"
+fc-list | grep -i "ioveska"
+fc-list | grep -i "iosevka"
+fc-list | grep -i "bigbluetermplus"
+fc-list | grep -i "bigblue"
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+fc-list | grep -i "computer"
+fc-list | grep -i "modern"
+fc-list | grep -i "bigblue"
+fc-list | grep -i "fantasque"
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+fc-list | grep -i "iosevka"
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+fc-list | grep -i "proggry"
+fc-list | grep -i "proggy"
+nvim .config/alacritty/alacritty.toml 
+fc-list | grep -i "proggycleannerdfontp"
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+fc-list | grep -i "mplus"
+fc-list | grep -i "m+"
+fc-list | grep -i "m+nerd"
+fc-list | grep -i "m+ nerd"
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+clear
+zsh
+exit
+zsh
+exit
+ls -a
+nvim .config/alacritty/alacritty.toml 
+ls -a
+git clone https://github.com/mimabial/neocode.git
+z neocode/
+la
+ls -a
+cd neocode/
+ls -a
+cd
+mkdir .config/nvim
+cp -a neocode/* .config/nvim/
+cd .config/nvim/
+ls -a
+nvim .
+nvim .config/alacritty/alacritty.toml 
+cd 
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+cd
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+cd
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+exit
+exit
+nvim .config/alacritty/alacritty.toml 
+nvim .config/alacritty/alacritty.toml 
+exit
+exit
+reboot
+nvim .config/alacritty/alacritty.toml 
+cd
+nvim .config/alacritty/alacritty.toml 
+exit
+nvim .config/alacritty/alacritty.toml 
+cd
+nvim .config/alacritty/alacritty.toml 
+exit
+cd
+/bin/zsh
+grep -xF "/bin/zsh" /etc/shells
+chsh -s /bin/zsh
+exit
+reboot

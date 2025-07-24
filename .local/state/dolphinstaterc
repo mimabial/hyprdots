@@ -1,0 +1,16 @@
+[Open-with settings]
+CompletionMode=1
+History=scr,okul
+
+[SettingsDialog]
+2560x1080 screen: Window-Maximized=true
+
+[State]
+1280x720 screen: Window-Maximized=true
+1500x1000 screen: Window-Maximized=true
+2 screens: Window-Maximized=true
+2560x1080 screen: Window-Maximized=true
+3 screens: Height=768
+3 screens: Width=1366
+3 screens: Window-Maximized=true
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACTAAAD4PwCAAAAAfsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAAA////AAAAAQAAAHUAAAKQ/AIAAAAC+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAAAAACkAAAAHQA////+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAQMAAAGdAAAAAAD///8AAAADAAAEuAAAADb8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEuAAAAAAA////AAAEQwAAApAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAABAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAwAAAAD/////AAAAAAAAAAA=

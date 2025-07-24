@@ -1,0 +1,17 @@
+[Colors:View]
+BackgroundNormal=#313744FF
+
+[General]
+TerminalApplication=
+
+[Icons]
+Theme=Papirus-kanagawa
+
+[KDE]
+widgetStyle=kvantum
+
+[UiSettings]
+ColorScheme=colors
+
+[Wallet]
+Enabled=false
